@@ -46,6 +46,10 @@ div {
     font-weight: bolder;
 }
 
+.error_text {
+    text-align: left;
+}
+
 .error_action {
     border: 1px solid white;
     border-radius: 10px;
