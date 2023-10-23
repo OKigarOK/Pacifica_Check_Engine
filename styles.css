@@ -1,14 +1,15 @@
-* {
+*, button {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 15px;
+    /*font-family: Roboto, sans-serif;*/
+    /*font-size: 20px;*/
 }
 
 body {
-    width: 100%;
+    /*width: 100%;*/
     background-color: black;
-    /*font-size: 15px;*/
+    /*overflow-y: hidden;*/
 }
 
 .error_card_container {
@@ -18,15 +19,19 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     margin: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 1.5vh;
 }
 
 .error_card {
     margin: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 1.5vh;
 }
 
-div {
+p {
     color: #FFFFFF;
-    /*color: red;*/
+    text-align: left;
 }
 
 .error_article,
@@ -39,7 +44,6 @@ div {
     padding: 5px;
     margin-bottom: 5px;
     text-align: center;
-    /*font-weight: bolder;*/
     color: #f6bf26;
 }
 
@@ -50,6 +54,17 @@ div {
 
 .error_text {
     text-align: left;
+}
+
+.error_actions {
+    background: linear-gradient(135deg, #f6bf26 10%, #1a1c1e);
+    color: #FFFFFF;
+}
+
+.error_actions .active {
+    /*background-color: #2F2F2F;*/
+    background: linear-gradient(135deg, #1a1c1e 10%, #f6bf26);
+
 }
 
 .error_action {
