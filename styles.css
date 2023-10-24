@@ -28,9 +28,9 @@ p {
 }
 
 .error_article,
-.error_when_monitored,
-.error_set_condition,
-.error_possible_causes,
+.error_monitored,
+.error_condition,
+.error_causes,
 .error_actions {
     border: 1px solid white;
     border-radius: 10px;

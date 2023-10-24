@@ -9,7 +9,7 @@
 <body>
 <!--<div id="info">ПРИВЕТ ГУГОЛЬ</div>-->
 
-<div class="error_cards_container">
+<div class="error_cards_container" id="container">
 
     <div class="error_card">
         <div class="accordion error_article">
@@ -79,27 +79,27 @@
     <!--    2-Я ОШИБКА!!!-->
     <div class="error_card">
         <div class="accordion error_article">
-            <h1>ОШИБКА P0522</h1>
+            <h1>P0522</h1>
             <h2>Pressure sensor low</h2>
         </div>
 
         <div class="panel">
 
-            <div class="error_when_monitored">
+            <div class="error_monitored">
                 <h3>КОГДА ОТСЛЕЖИВАЕТСЯ:</h3>
                 <p>Двигатель работает, напряжение аккумуляторной батареи выше 10,4В</p>
             </div>
 
-            <div class="error_set_condition">
+            <div class="error_condition">
                 <h3>УСТАНОВИТЬ УСЛОВИЕ:</h3>
                 <p>Напряжение датчика давления масла на PCM падает ниже 0,1 вольта на 0,5 секунды</p>
             </div>
 
-            <div class="error_possible_causes">
+            <div class="error_causes">
                 <h3>ВОЗМОЖНЫЕ ПРИЧИНЫ:</h3>
                 <p>
-                    &bull; НАПРЯЖЕНИЕ ДАТЧИКА ДАВЛЕНИЯ МАСЛА НИЖЕ 0,1 ВОЛЬТА<br>
-                    &bull; ВНУТРЕННЯЯ ОТКАЗ ДАТЧИКА ДАВЛЕНИЯ МАСЛА<br>
+                    - НАПРЯЖЕНИЕ ДАТЧИКА ДАВЛЕНИЯ МАСЛА НИЖЕ 0,1 ВОЛЬТА<br>
+                    - ВНУТРЕННЯЯ ОТКАЗ ДАТЧИКА ДАВЛЕНИЯ МАСЛА<br>
                     &bull; (G6) СИГНАЛ МАСЛЯНОГО ПРЕССА ЗАКОРОТАН НА МАССУ<br>
                     &bull; PCM
                 </p>
@@ -142,9 +142,14 @@
         </div>
     </div>
 
+
+
 </div>
 
 </body>
 <!--<script src="main.js"></script>-->
+<script src="render.js" type="module"></script>
+<!--<script src="errors_data.js"></script>-->
 <script src="accordion.js"></script>
+
 </html>
