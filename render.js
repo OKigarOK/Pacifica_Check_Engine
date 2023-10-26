@@ -38,7 +38,7 @@ ERRORS_DATA.forEach(function (error) {
         errorMonitored.className = 'error_monitored';
         panel.append(errorMonitored);
         const errorMonitoredH3 = document.createElement('h3');
-        errorMonitoredH3.innerText = 'МОНИТОРИНГ:';
+        errorMonitoredH3.innerText = 'КОГДА ОТСЛЕЖИВАЕМ:';
         errorMonitored.append(errorMonitoredH3);
         const errorMonitoredP = document.createElement('p');
         errorMonitoredP.innerText = error.error_monitored; // error_monitored
@@ -80,7 +80,7 @@ ERRORS_DATA.forEach(function (error) {
         errorActions.className = 'error_actions';
         panel.append(errorActions);
         const errorActionsH3 = document.createElement('h3');
-        errorActionsH3.innerText = 'ДЕЙСТВИЯ:';
+        errorActionsH3.innerText = 'НАШИ ДЕЙСТВИЯ:';
         errorActions.append(errorActionsH3);
 
         // ЦИКЛ ЭКШЕНОВ
