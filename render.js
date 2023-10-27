@@ -50,7 +50,7 @@ ERRORS_DATA.forEach(function (error) {
         errorCondition.className = 'error_condition';
         panel.append(errorCondition);
         const errorConditionH3 = document.createElement('h3');
-        errorConditionH3.innerText = 'СРАБАТЫВАНИЕ СОБЫТИЯ:';
+        errorConditionH3.innerText = 'НАСТУПЛЕНИЕ СОБЫТИЯ:';
         errorCondition.append(errorConditionH3);
         const errorConditionP = document.createElement('p');
         errorConditionP.innerText = error.error_condition; // error_condition
@@ -95,7 +95,5 @@ ERRORS_DATA.forEach(function (error) {
     }
 
 })
-
-
 
 ACCORD()
