@@ -10,12 +10,23 @@ function ACCORD() {
             });
             item.classList.add('active');
             const panel = item.nextElementSibling;
-
-            if (panel.style.maxHeight) {
-                panel.style.maxHeight = null;
-            } else {
-                panel.style.maxHeight = panel.scrollHeight + "px";
-            }
+            panel.style.maxHeight = panel.scrollHeight + "px";
         })
     })
+}
+
+function scrollToUP() {
+    const smoothLinks = document.querySelectorAll('.error_card');
+    for (let smoothLink of smoothLinks) {
+        smoothLink.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            console.log(smoothLink);
+
+            smoothLink.scrollIntoView({
+                behavior: "smooth",
+                block: 'start'
+            })
+        });
+    }
 }

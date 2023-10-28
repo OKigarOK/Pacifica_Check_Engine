@@ -537,6 +537,7 @@ export const ERRORS_DATA = [
         ],
         error_actions: ['НЕДОСТУПНО']
     },
+
     {
         error_number: 'P0201',
         error_name: 'ТОПЛИВНАЯ ФОРСУНКА #1',
@@ -609,6 +610,7 @@ export const ERRORS_DATA = [
         ],
         error_actions: ['НЕДОСТУПНО']
     },
+
     {
         error_number: 'P0300',
         error_name: 'МНОЖЕСТВЕННЫЕ ПРОПУСКИ ЗАЖИГАНИЯ В ЦИЛИНДРАХ',
@@ -803,6 +805,7 @@ export const ERRORS_DATA = [
         ],
         error_actions: ['НЕДОСТУПНО']
     },
+
     {
         error_number: 'P0401',
         error_name: 'ПРОИЗВОДИТЕЛЬНОСТЬ СИСТЕМЫ EGR',
@@ -1115,6 +1118,7 @@ export const ERRORS_DATA = [
         ],
         error_actions: ['НЕДОСТУПНО']
     },
+
     {
         error_number: 'P0501',
         error_name: 'ПРОИЗВОДИТЕЛЬНОСТЬ ДАТЧИКА СКОРОСТИ ТРАНСПОРТНОГО СРЕДСТВА №1',
@@ -1423,6 +1427,7 @@ export const ERRORS_DATA = [
         ],
         error_actions: ['НЕДОСТУПНО']
     },
+
     {
         error_number: 'P0600',
         error_name: 'ПОСЛЕДОВАТЕЛЬНЫЙ КАНАЛ СВЯЗИ',
@@ -2269,7 +2274,6 @@ export const ERRORS_DATA = [
         error_causes: '',
         error_actions: ''
     },
-
     {
         error_number: 'P1775 (АКПП)',
         error_name: 'КЛАПАН ЭЛЕКТРОМАГНИТНОГО ВЫКЛЮЧАТЕЛЯ ЗАФИКСИРОВАН В ПОЛОЖЕНИИ TCC',
@@ -2347,7 +2351,6 @@ export const ERRORS_DATA = [
         ],
         error_actions: ['НЕДОСТУПНО']
     },
-
     {
         error_number: 'P1861',
         error_name: 'СИФОННАЯ ЛИНИЯ ОТСОЕДИНЕНА',
@@ -2608,14 +2611,14 @@ export const ERRORS_DATA = [
         error_actions: ['НЕДОСТУПНО']
     },
 
-    {
-        error_number: '',
-        error_name: '',
-        error_monitored: '',
-        error_condition: '',
-        error_causes: [
-            ''
-        ],
-        error_actions: ['НЕДОСТУПНО']
-    },
+    // {
+    //     error_number: '',
+    //     error_name: '',
+    //     error_monitored: '',
+    //     error_condition: '',
+    //     error_causes: [
+    //         ''
+    //     ],
+    //     error_actions: ['НЕДОСТУПНО']
+    // },
 ]
