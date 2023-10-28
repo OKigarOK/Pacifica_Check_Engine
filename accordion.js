@@ -6,17 +6,11 @@ function ACCORD() {
             list.forEach(el => {
                 el.classList.remove('active');
                 const panel = el.nextElementSibling;
-                //
-                // if (panel.style.maxHeight) {
-                    panel.style.maxHeight = null;
-                // } else {
-                //     panel.style.maxHeight = panel.scrollHeight + "px";
-                // }
+                panel.style.maxHeight = null;
             });
             item.classList.add('active');
             const panel = item.nextElementSibling;
-            // console.log(item);
-            // console.log(panel);
+
             if (panel.style.maxHeight) {
                 panel.style.maxHeight = null;
             } else {
@@ -24,20 +18,4 @@ function ACCORD() {
             }
         })
     })
-
-    // const acc = document.getElementsByClassName("accordion");
-    // for (let i = 0; i < acc.length; i++) {
-    //     acc[i].addEventListener("click", function() {
-    //
-    //         this.classList.toggle("active");
-    //
-    //         const panel = this.nextElementSibling;
-    //         if (panel.style.maxHeight) {
-    //             panel.style.maxHeight = null;
-    //         } else {
-    //             panel.style.maxHeight = panel.scrollHeight + "px";
-    //         }
-    //
-    //     });
-    // }
 }

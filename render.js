@@ -38,7 +38,7 @@ ERRORS_DATA.forEach(function (error) {
         errorMonitored.className = 'error_monitored';
         panel.append(errorMonitored);
         const errorMonitoredH3 = document.createElement('h3');
-        errorMonitoredH3.innerText = 'КОГДА ОТСЛЕЖИВАЕМ:';
+        errorMonitoredH3.innerText = 'КОГДА ОТСЛЕЖИВАЕТСЯ:';
         errorMonitored.append(errorMonitoredH3);
         const errorMonitoredP = document.createElement('p');
         errorMonitoredP.innerText = error.error_monitored; // error_monitored
