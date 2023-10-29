@@ -13,8 +13,6 @@ function ACCORD() {
             item.classList.add('active');
             const panel = item.nextElementSibling;
             panel.style.maxHeight = panel.scrollHeight + "px";
-            console.log(panel.style.maxHeight);
-
             item.scrollIntoView({
                 behavior: "smooth",
                 block: 'nearest'
