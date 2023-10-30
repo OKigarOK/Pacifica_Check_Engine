@@ -15,7 +15,7 @@ export const ERRORS_DATA = [
             'ДАТЧИК ПОЛОЖЕНИЯ РАСПРЕДЕЛИТЕЛЬНОГО ВАЛА',
             'ДАТЧИК ПОЛОЖЕНИЯ КОЛЕНЧАТОГО ВАЛА'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0031',
@@ -29,12 +29,13 @@ export const ERRORS_DATA = [
             'УПРАВЛЕНИЕ НАГРЕВАТЕЛЕМ O2 ЗАМКНУТО НА ЗЕМЛЮ',
             'PCM'
         ],
+        error_actions: ''
         // error_actions: [
         //     '1. Зажигание включено, двигатель не работает.<br>' +
         //     'С помощью DRBIII считайте коды неисправностей и записывайте соответствующие данные стоп-кадра.<br>' +
         //     'Отображается ли счетчик исправных поездок и равен ли он нулю?<br>' +
         //     'Да → Перейти к пункту 3.<br>' +
-        //     'Нет → Перейти к пункту 2.',
+        //     'Нет → Перейти к пункту 2.<br>' +
         //     '2. Выключите зажигание.<br>' +
         //     '<b>ПРИМЕЧАНИЕ: Перед продолжением теста дайте датчику O2 остыть. О2 Напряжение датчика должно стабилизироваться на уровне 5.0 вольт. Поднятие капота может помочь быстрее снизить температуру под капотом.</b><br>' +
         //     'Зажигание включено, двигатель не работает.<br>' +
@@ -43,7 +44,7 @@ export const ERRORS_DATA = [
         //     'Остается ли напряжение датчика O2 выше 4,5 вольт?<br>' +
         //     'Да → Перейти к пункту 3.<br>' +
         //     'Нет → Относится к симптому ПРЕРЫВИСТОГО СОСТОЯНИЯ в категории управляемости.<br>' +
-        //     'Выполните ПРОВЕРОЧНЫЙ ТЕСТ СИЛОВОГО АГРЕГАТА VER-5- NGC.',
+        //     'Выполните ПРОВЕРОЧНЫЙ ТЕСТ СИЛОВОГО АГРЕГАТА VER-5- NGC.<br>' +
         //     '3. Выключите зажигание.<br>' +
         //     '<b>ПРИМЕЧАНИЕ: Дайте датчику O2 остыть до комнатной температуры.</b><br>' +
         //     'Отсоедините разъем жгута проводов датчика O2.<br>' +
@@ -52,7 +53,7 @@ export const ERRORS_DATA = [
         //     'Соответствует ли нагревательный элемент датчика O2 техническим требованиям?<br>' +
         //     'Да → Перейти к пункту 4.<br>' +
         //     'Нет → Замените датчик O2.<br>' +
-        //     'Выполните ПРОВЕРОЧНЫЙ ТЕСТ СИЛОВОЙ УСТАНОВКИ VER-5- NGC.',
+        //     'Выполните ПРОВЕРОЧНЫЙ ТЕСТ СИЛОВОЙ УСТАНОВКИ VER-5- NGC.<br>' +
         //     '4. Выключите зажигание.<br>' +
         //     'Отсоедините разъем жгута проводов датчика O2.<br>' +
         //     'Зажигание включено, двигатель не работает.<br>' +
@@ -61,7 +62,7 @@ export const ERRORS_DATA = [
         //     'Горит ли тест ярко и включается ли и выключается ли вспышка?<br>' +
         //     'Да → Замените датчик O2.<br>' +
         //     'Выполните ПРОВЕРОЧНЫЙ ТЕСТ СИЛОВОЙ УСТАНОВКИ VER-5- NGC.<br>' +
-        //     'Нет → Перейти к пункту 5.',
+        //     'Нет → Перейти к пункту 5.<br>' +
         //     '5. Выключите зажигание.<br>' +
         //     'Отсоедините разъем жгута проводов датчика O2.<br>' +
         //     'Отсоедините разъем жгута проводов PCM.<br>' +
@@ -76,7 +77,6 @@ export const ERRORS_DATA = [
         //     'в соответствии с сервисной информацией.<br>' +
         //     'Выполните ПРОВЕРОЧНЫЙ ТЕСТ СИЛОВОЙ УСТАНОВКИ VER-5- NGC.'
         // ]
-        error_actions: ['НЕДОСТУПНО']
     },
     {
         error_number: 'P0032',
@@ -92,7 +92,7 @@ export const ERRORS_DATA = [
             'ЦЕПЬ УПРАВЛЕНИЯ НАГРЕВАТЕЛЕМ O2 РАЗОМКНУТА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0037',
@@ -135,7 +135,7 @@ export const ERRORS_DATA = [
             'ВЫСОКОЕ СОПРОТИВЛЕНИЕ В ЦЕПИ ЗАЗЕМЛЕНИЯ ДАТЧИКА TP (K4)',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0071',
@@ -153,7 +153,7 @@ export const ERRORS_DATA = [
             'НИЗКИЙ УРОВЕНЬ PCM',
             'PCM ВЫСОКИЙ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0072',
@@ -167,7 +167,7 @@ export const ERRORS_DATA = [
             '(K25) СИГНАЛЬНАЯ ЦЕПЬ AAT ЗАМКНУТА НА (K4) ЦЕПЬ ЗАЗЕМЛЕНИЯ ДАТЧИКА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0073',
@@ -182,7 +182,7 @@ export const ERRORS_DATA = [
             '(K4) ЦЕПЬ ЗАЗЕМЛЕНИЯ ДАТЧИКА РАЗОМКНУТА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0107',
@@ -199,7 +199,7 @@ export const ERRORS_DATA = [
             'ЦЕПЬ ПИТАНИЯ PCM (K6) НАПРЯЖЕНИЕМ 5 ВОЛЬТ',
             'СИГНАЛЬНАЯ СХЕМА ДАТЧИКА МАР PCM (K1)'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0108',
@@ -215,7 +215,7 @@ export const ERRORS_DATA = [
             '(K4) ЦЕПЬ ЗАЗЕМЛЕНИЯ ДАТЧИКА РАЗОМКНУТА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0111',
@@ -233,7 +233,7 @@ export const ERRORS_DATA = [
             'ВЫСОКИЙ УРОВЕНЬ РСМ',
             'НИЗКИЙ УРОВЕНЬ PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0112',
@@ -247,7 +247,7 @@ export const ERRORS_DATA = [
             '(K21) СИГНАЛ IAT ЗАКОРОЧЕН НА (K4) ЦЕПЬ ЗАЗЕМЛЕНИЯ ДАТЧИКА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0113',
@@ -262,7 +262,7 @@ export const ERRORS_DATA = [
             '(K4) ЦЕПЬ ЗАЗЕМЛЕНИЯ ДАТЧИКА РАЗОМКНУТА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0116',
@@ -280,7 +280,7 @@ export const ERRORS_DATA = [
             'ВЫСОКИЙ УРОВЕНЬ PCM',
             'НИЗКИЙ УРОВЕНЬ PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0117',
@@ -294,7 +294,7 @@ export const ERRORS_DATA = [
             '(K2) СИГНАЛ ECT ЗАКОРОЧЕН НА (K4) ЦЕПЬ ЗАЗЕМЛЕНИЯ ДАТЧИКА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0118',
@@ -309,7 +309,7 @@ export const ERRORS_DATA = [
             '(K4) ЦЕПЬ ЗАЗЕМЛЕНИЯ ДАТЧИКА РАЗОМКНУТА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0122',
@@ -327,7 +327,7 @@ export const ERRORS_DATA = [
             'ЦЕПЬ ПИТАНИЯ PCM (K6) НАПРЯЖЕНИЕМ 5 ВОЛЬТ',
             'СИГНАЛ ДАТЧИКА TP PCM (K22)'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0123',
@@ -344,7 +344,7 @@ export const ERRORS_DATA = [
             '(K4) ЦЕПЬ ЗАЗЕМЛЕНИЯ ДАТЧИКА РАЗОМКНУТА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0125',
@@ -356,7 +356,7 @@ export const ERRORS_DATA = [
             'РАБОТА ТЕРМОСТАТА',
             'ДАТЧИК ТЕМПЕРАТУРЫ ОХЛАЖДАЮЩЕЙ ЖИДКОСТИ ДВИГАТЕЛЯ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0128',
@@ -377,7 +377,7 @@ export const ERRORS_DATA = [
             'НИЗКИЙ УРОВЕНЬ PCM',
             'ВЫСОКИЙ УРОВЕНЬ РСМ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0129',
@@ -397,7 +397,7 @@ export const ERRORS_DATA = [
             'ЦЕПЬ ПИТАНИЯ PCM (K6) НАПРЯЖЕНИЕМ 5 ВОЛЬТ',
             'СХЕМА ОТОБРАЖЕНИЯ СИГНАЛА PCM (K1)'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0131',
@@ -414,7 +414,7 @@ export const ERRORS_DATA = [
             'СХЕМА ВОЗВРАТА PCM',
             'СИГНАЛЬНАЯ СХЕМА PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0132',
@@ -430,7 +430,7 @@ export const ERRORS_DATA = [
             'РАЗОМКНУТАЯ ЦЕПЬ ВОЗВРАТА ДАТЧИКА O2',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0133',
@@ -444,7 +444,7 @@ export const ERRORS_DATA = [
             'ОБРАТНЫЙ КОНТУР O2',
             'ДАТЧИК O2'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0135',
@@ -458,7 +458,7 @@ export const ERRORS_DATA = [
             'ЦЕПЬ УПРАВЛЕНИЯ НАГРЕВАТЕЛЕМ O2 РАЗОМКНУТА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0137',
@@ -516,7 +516,7 @@ export const ERRORS_DATA = [
             'МЕХАНИЧЕСКАЯ ПРОБЛЕМА ДВИГАТЕЛЯ',
             'ЗАГРЯЗНЕНИЕ ТОПЛИВА/УТЕЧКА ВЫХЛОПНЫХ ГАЗОВ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0172',
@@ -536,7 +536,7 @@ export const ERRORS_DATA = [
             'ТОПЛИВНЫЙ ФИЛЬТР/РЕГУЛЯТОР ДАВЛЕНИЯ',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
 
     {
@@ -552,7 +552,7 @@ export const ERRORS_DATA = [
             'ЦЕПЬ УПРАВЛЕНИЯ ИНЖЕКТОРОМ ЗАМКНУТА НА ЗЕМЛЮ',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0202',
@@ -609,7 +609,7 @@ export const ERRORS_DATA = [
             'ЗАСОРЕН РАДИАТОР ТРАНСМИССИОННОГО МАСЛА',
             'АКТИВИРОВАНЫ ОПЕРАЦИИ ПРИ ВЫСОКИХ ТЕМПЕРАТУРАХ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
 
     {
@@ -637,7 +637,7 @@ export const ERRORS_DATA = [
             'PCM (СИСТЕМА ЗАЖИГАНИЯ)',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0301',
@@ -704,7 +704,7 @@ export const ERRORS_DATA = [
             'ПРОВЕРКА ЖГУТА ПРОВОДОВ',
             'ДАТЧИК ПОЛОЖЕНИЯ КОЛЕНЧАТОГО ВАЛА'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0325',
@@ -720,7 +720,7 @@ export const ERRORS_DATA = [
             '(K45) ЦЕПЬ ВОЗВРАТА KS РАЗОМКНУТА',
             'ДАТЧИК ДЕТОНАЦИИ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0335',
@@ -742,7 +742,7 @@ export const ERRORS_DATA = [
             'СИГНАЛ PCM - (K24) CKP',
             'ДАТЧИК ПОЛОЖЕНИЯ КОЛЕНЧАТОГО ВАЛА'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0339',
@@ -762,7 +762,7 @@ export const ERRORS_DATA = [
             '(K24) КОРОТКОЕ ЗАМЫКАНИЕ СИГНАЛЬНОЙ ЦЕПИ CKP НА (K6) 5 ВОЛЬТ',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0340',
@@ -784,7 +784,7 @@ export const ERRORS_DATA = [
             'СИГНАЛ PCM - (K44) CMP',
             'ДАТЧИК ПОЛОЖЕНИЯ РАСПРЕДЕЛИТЕЛЬНОГО ВАЛА'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0344',
@@ -804,7 +804,7 @@ export const ERRORS_DATA = [
             '(K44) КОРОТКОЕ ЗАМЫКАНИЕ СИГНАЛЬНОЙ ЦЕПИ CMP НА (K6) 5 ВОЛЬТ',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
 
     {
@@ -824,7 +824,7 @@ export const ERRORS_DATA = [
             'PCM - EGR ОТКРЫТ',
             'PCM - EGR ЗАКРЫТ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0403',
@@ -841,7 +841,7 @@ export const ERRORS_DATA = [
             'ЦЕПЬ УПРАВЛЕНИЯ СОЛЕНОИДОМ EGR РАЗОМКНУТА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0404',
@@ -861,7 +861,7 @@ export const ERRORS_DATA = [
             'УЗЕЛ EGR (ЗАЗЕМЛЕННЫЙ)',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0405',
@@ -879,7 +879,7 @@ export const ERRORS_DATA = [
             'СХЕМА ПИТАНИЯ PCM НАПРЯЖЕНИЕМ 5 ВОЛЬТ',
             'СИГНАЛ ДАТЧИКА ПОЛОЖЕНИЯ PCM EGR'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0406',
@@ -896,7 +896,7 @@ export const ERRORS_DATA = [
             'РАЗОМКНУТАЯ ЦЕПЬ ЗАЗЕМЛЕНИЯ ДАТЧИКА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0420',
@@ -911,7 +911,7 @@ export const ERRORS_DATA = [
             'СТАРЕЮЩИЙ ДАТЧИК O2',
             'КАТАЛИТИЧЕСКИЙ НЕЙТРАЛИЗАТОР'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0440',
@@ -930,7 +930,7 @@ export const ERRORS_DATA = [
             'ОБНАРУЖЕНИЕ УТЕЧКИ ИСПАРИТЕЛЬНЫХ ВЫБРОСОВ',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0441',
@@ -943,7 +943,7 @@ export const ERRORS_DATA = [
             'ПРОВЕРКА РАБОТОСПОСОБНОСТИ СОЛЕНОИДА ПРОДУВКИ EVAP',
             'ЭЛЕКТРОМАГНИТНЫЙ ИСТОЧНИК ВАКУУМА ДЛЯ ПРОДУВКИ EVAP'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0442',
@@ -957,7 +957,7 @@ export const ERRORS_DATA = [
             'РАБОТА СОЛЕНОИДА ПРОДУВКИ EVAP',
             'РАБОТА КОММУТАТОРА NVLD'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0443',
@@ -973,7 +973,7 @@ export const ERRORS_DATA = [
             '(K108) ЦЕПЬ ВОЗВРАТА ЗОЛЯ ДЛЯ ПРОДУВКИ EVAP ЗАКОРОЧЕНА НА ЗЕМЛЮ',
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0452',
@@ -989,7 +989,7 @@ export const ERRORS_DATA = [
             'УТЕЧКИ СОЛЕНОИДА ПРОДУВКИ EVAP/ЗАСТРЯВШИЙ ОТКРЫТЫЙ',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0453',
@@ -1005,7 +1005,7 @@ export const ERRORS_DATA = [
             '(K107) СИГНАЛЬНАЯ ЦЕПЬ ПЕРЕКЛЮЧАТЕЛЯ NVLD РАЗОМКНУТА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0455',
@@ -1026,7 +1026,7 @@ export const ERRORS_DATA = [
             'ВИЗУАЛЬНЫЙ И ФИЗИЧЕСКИЙ ОСМОТР',
             'ОБНАРУЖЕНИЕ УТЕЧКИ ИСПАРИТЕЛЬНЫХ ВЫБРОСОВ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0461',
@@ -1042,7 +1042,7 @@ export const ERRORS_DATA = [
             'ВНУТРЕННИЙ ОСМОТР ТОПЛИВНОГО БАКА И СИФОННОГО ШЛАНГА',
             'ДАТЧИК УРОВНЯ ТОПЛИВА'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0462',
@@ -1053,7 +1053,7 @@ export const ERRORS_DATA = [
             'УДАЧНОЙ ПОЕЗДКИ, РАВНОЙ НУЛЮ',
             'ПРЕРЫВИСТОЕ СОСТОЯНИЕ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0463',
@@ -1077,7 +1077,7 @@ export const ERRORS_DATA = [
             '(C24) КОРОТКОЕ ЗАМЫКАНИЕ ЦЕПИ УПРАВЛЕНИЯ РЕЛЕ НИЗКОСКОРОСТНОГО ВЕНТИЛЯТОРА RAD НА ЗЕМЛЮ',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0481',
@@ -1092,7 +1092,7 @@ export const ERRORS_DATA = [
             '(C27) КОРОТКОЕ ЗАМЫКАНИЕ ЦЕПИ УПРАВЛЕНИЯ РЕЛЕ ВЫСОКОСКОРОСТНОГО ВЕНТИЛЯТОРА RAD НА ЗЕМЛЮ',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0498',
@@ -1105,7 +1105,7 @@ export const ERRORS_DATA = [
             '(K106) КОРОТКОЕ ЗАМЫКАНИЕ ЦЕПИ УПРАВЛЕНИЯ СОЛЕНОИДОМ NVLD НА ЗЕМЛЮ',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0499',
@@ -1120,7 +1120,7 @@ export const ERRORS_DATA = [
             '(Z1) ЦЕПЬ ЗАЗЕМЛЕНИЯ РАЗОМКНУТА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
 
     {
@@ -1133,7 +1133,7 @@ export const ERRORS_DATA = [
             'ПЕРЕДАЧА DTC(ов)',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0506',
@@ -1148,7 +1148,7 @@ export const ERRORS_DATA = [
             'СИСТЕМА ПОДАЧИ ВОЗДУХА',
             'КОРПУС ДРОССЕЛЬНОЙ ЗАСЛОНКИ И РЫЧАГ ДРОССЕЛЬНОЙ ЗАСЛОНКИ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0507',
@@ -1173,7 +1173,7 @@ export const ERRORS_DATA = [
             '(K39) ЦЕПЬ УПРАВЛЕНИЯ ДВИГАТЕЛЕМ IAC РАЗОМКНУТА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0509',
@@ -1188,7 +1188,7 @@ export const ERRORS_DATA = [
             '(K60) СИГНАЛЬНАЯ ЦЕПЬ IAC ЗАКОРОЧЕНА НА (K39) ЦЕПЬ УПРАВЛЕНИЯ ДВИГАТЕЛЕМ IAC',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0513',
@@ -1203,7 +1203,7 @@ export const ERRORS_DATA = [
             'PCM',
             'ПРОСМОТРИТЕ НАБОР КОДОВ НЕИСПРАВНОСТЕЙ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0516',
@@ -1217,7 +1217,7 @@ export const ERRORS_DATA = [
             'СИГНАЛ ТЕМПЕРАТУРЫ БАТАРЕИ ЗАКОРОЧЕН В ЦЕПИ ЗАЗЕМЛЕНИЯ ДАТЧИКА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0517',
@@ -1232,7 +1232,7 @@ export const ERRORS_DATA = [
             'РАЗОМКНУТАЯ ЦЕПЬ ЗАЗЕМЛЕНИЯ ДАТЧИКА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0522',
@@ -1245,6 +1245,7 @@ export const ERRORS_DATA = [
             '(G6) СИГНАЛ ДАВЛЕНИЯ МАСЛА ЗАМКНУТ НА ЗЕМЛЮ',
             'PCM'
         ],
+        error_actions: ''
         // error_actions: [
         //     '<b>ПРИМЕЧАНИЕ. Прежде чем продолжить, убедитесь, что давление моторного масла соответствует правильному.</b><br>' +
         //     '1. Зажигание включено, двигатель не работает.<br>' +
@@ -1267,7 +1268,6 @@ export const ERRORS_DATA = [
         //     'Да → Устранить замыкание на массу цепи сигнала масляного пресса (G6). Выполните ПРОВЕРОЧНЫЙ ТЕСТ СИЛОВОЙ трансмиссии VER-5-NGC.<br>' +
         //     'Нет → Замените и запрограммируйте модуль управления силовым агрегатом в соответствии с Сервисной информацией. Выполните ПРОВЕРОЧНЫЙ ТЕСТ СИЛОВОЙ ПЕРЕДАЧИ VER-5-NGC.'
         // ]
-        error_actions: ['НЕДОСТУПНО']
     },
     {
         error_number: 'P0532',
@@ -1284,7 +1284,7 @@ export const ERRORS_DATA = [
             'ЦЕПЬ ПИТАНИЯ PCM (K7) НАПРЯЖЕНИЕМ 5 ВОЛЬТ',
             'СИГНАЛ ДАТЧИКА ДАВЛЕНИЯ КОНДИЦИОНЕРА PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0533',
@@ -1300,7 +1300,7 @@ export const ERRORS_DATA = [
             '(K4) ЦЕПЬ ЗАЗЕМЛЕНИЯ ДАТЧИКА РАЗОМКНУТА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0562',
@@ -1317,7 +1317,7 @@ export const ERRORS_DATA = [
             '(K20) ЦЕПЬ УПРАВЛЕНИЯ ГЕНЕРАТОРНЫМ ПОЛЕМ РАЗОМКНУТА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0563',
@@ -1330,7 +1330,7 @@ export const ERRORS_DATA = [
             '(K20) СХЕМА УПРАВЛЕНИЯ ГЕНЕРАТОРНЫМ ПОЛЕМ ЗАКОРОЧЕНА НА НАПРЯЖЕНИЕ БАТАРЕИ',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0572',
@@ -1343,7 +1343,7 @@ export const ERRORS_DATA = [
             '(K29) СИГНАЛЬНАЯ ЦЕПЬ ВЫКЛЮЧАТЕЛЯ ТОРМОЗА ЗАМКНУТА НА ЗЕМЛЮ',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0573',
@@ -1357,7 +1357,7 @@ export const ERRORS_DATA = [
             '(Z1) ЦЕПЬ ЗАЗЕМЛЕНИЯ РАЗОМКНУТА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0580',
@@ -1372,7 +1372,7 @@ export const ERRORS_DATA = [
             '(V37) СИГНАЛЬНАЯ ЦЕПЬ ПЕРЕКЛЮЧАТЕЛЯ S/C ЗАМКНУТА НА ЗЕМЛЮ',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0581',
@@ -1386,7 +1386,7 @@ export const ERRORS_DATA = [
             '(K4) ДАТЧИК ЗАЗЕМЛЕНИЯ РАЗОМКНУТ',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0582',
@@ -1400,7 +1400,7 @@ export const ERRORS_DATA = [
             '(V36) ЦЕПЬ УПРАВЛЕНИЯ ВАКУУМНЫМ ЗОЛЕМ S/C РАЗОМКНУТА',
             'PCM (ВАКУУМНЫЙ СОЛЕНОИД)'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0586',
@@ -1414,7 +1414,7 @@ export const ERRORS_DATA = [
             '(V35) ЦЕПЬ УПРАВЛЕНИЯ ВЕНТИЛЯЦИОННЫМ ОТВЕРСТИЕМ S/C ЗАКОРОЧЕНА НА ЗЕМЛЮ',
             'PCM (ВЕНТИЛЯЦИОННЫЙ СОЛЕНОИД)'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0594',
@@ -1430,7 +1430,7 @@ export const ERRORS_DATA = [
             'ВЫКЛЮЧАТЕЛЬ СТОП-СИГНАЛА',
             'PCM (СХЕМА ИСТОЧНИКА S/C)'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
 
     {
@@ -1441,7 +1441,7 @@ export const ERRORS_DATA = [
         error_causes: [
             'PCM ВНУТРЕННИЙ ИЛИ SPI'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0601',
@@ -1460,6 +1460,7 @@ export const ERRORS_DATA = [
         error_causes: [
             'PCM - ВНУТРЕННЯЯ ОШИБКА'
         ],
+        error_actions: ''
         // error_actions: [
         //     'Используя схемы в качестве ориентира, осмотрите проводку и разъемы. Ремонтируйте по мере необходимости. Обратите особое внимание на все цепи питания и заземления.<br>' +
         //     'Если возможных причин не осталось, просмотрите раздел "Ремонт".<br>' +
@@ -1468,8 +1469,6 @@ export const ERRORS_DATA = [
         //     'ВЫПОЛНИТЕ БЫСТРОЕ ОБУЧЕНИЕ И ЗАПРОГРАММИРУЙТЕ КОЭФФИЦИЕНТ ПЕРЕДАЧИ.<br>' +
         //     'Выполните ТЕСТ ПРОВЕРКИ ПЕРЕДАЧИ 40/41te (NGC) - ВЕРСИЯ 1.'
         // ]
-        error_actions: ['НЕДОСТУПНО']
-
     },
     {
         error_number: 'P0605 (АКПП)',
@@ -1503,7 +1502,7 @@ export const ERRORS_DATA = [
             '(K20) ЦЕПЬ УПРАВЛЕНИЯ ГЕНЕРАТОРНЫМ ПОЛЕМ РАЗОМКНУТА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0627',
@@ -1518,7 +1517,7 @@ export const ERRORS_DATA = [
             '(K31) ЦЕПЬ УПРАВЛЕНИЯ РЕЛЕ ТОПЛИВНОГО НАСОСА ЗАМКНУТА НА ЗЕМЛЮ',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0630',
@@ -1530,7 +1529,7 @@ export const ERRORS_DATA = [
             'ПРОВЕРЬТЕ ПРОГРАММИРОВАНИЕ PCM',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0632',
@@ -1542,7 +1541,7 @@ export const ERRORS_DATA = [
             'ПРОВЕРЬТЕ ПРОГРАММИРОВАНИЕ PCM',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0633',
@@ -1554,7 +1553,7 @@ export const ERRORS_DATA = [
             'ПРОВЕРЬТЕ ПРОГРАММИРОВАНИЕ PCM',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0645',
@@ -1569,7 +1568,7 @@ export const ERRORS_DATA = [
             '(C28) КОРОТКОЕ ЗАМЫКАНИЕ ЦЕПИ УПРАВЛЕНИЯ РЕЛЕ МУФТЫ КОНДИЦИОНЕРА НА ЗЕМЛЮ',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0660',
@@ -1588,7 +1587,7 @@ export const ERRORS_DATA = [
             'ЭЛЕКТРОМАГНИТНЫЙ КЛАПАН НАСТРОЙКИ КОЛЛЕКТОРА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0685',
@@ -1603,7 +1602,7 @@ export const ERRORS_DATA = [
             '(K51) ЦЕПЬ УПРАВЛЕНИЯ РЕЛЕ ASD ЗАМКНУТА НА ЗЕМЛЮ',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0688',
@@ -1619,7 +1618,7 @@ export const ERRORS_DATA = [
             'PCM НЕ ЗАПУСКАЕТСЯ',
             'ЗАПУСК PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
 
     {
@@ -1659,7 +1658,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0711 (АКПП)',
@@ -1671,7 +1670,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0712 (АКПП)',
@@ -1685,7 +1684,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0713 (АКПП)',
@@ -1700,7 +1699,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0714 (АКПП)',
@@ -1713,7 +1712,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0715 (АКПП)',
@@ -1730,7 +1729,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0720 (АКПП)',
@@ -1747,7 +1746,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0725 (АКПП)',
@@ -1759,7 +1758,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВОЙ ПЕРЕДАЧЕЙ',
             'ПЕРЕРЫВНАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0731 (АКПП)',
@@ -1771,7 +1770,7 @@ export const ERRORS_DATA = [
             'ВНУТРЕННЯЯ ТРАНСМИССИЯ',
             'ПЕРИОДИЧЕСКИЕ ОШИБКИ ПЕРЕДАЧ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0732 (АКПП)',
@@ -1784,7 +1783,7 @@ export const ERRORS_DATA = [
             'ВНУТРЕННЯЯ ТРАНСМИССИЯ',
             'ПЕРИОДИЧЕСКИЕ ОШИБКИ ПЕРЕДАЧ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0733 (АКПП)',
@@ -1797,7 +1796,7 @@ export const ERRORS_DATA = [
             'ВНУТРЕННЯЯ ТРАНСМИССИЯ',
             'ПЕРИОДИЧЕСКИЕ ОШИБКИ ПЕРЕДАЧ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0734 (АКПП)',
@@ -1810,7 +1809,7 @@ export const ERRORS_DATA = [
             'ВНУТРЕННЯЯ ТРАНСМИССИЯ',
             'ПЕРИОДИЧЕСКИЕ ОШИБКИ ПЕРЕДАЧ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0736 (АКПП)',
@@ -1822,7 +1821,7 @@ export const ERRORS_DATA = [
             'ВНУТРЕННЯЯ ТРАНСМИССИЯ',
             'ПЕРИОДИЧЕСКИЕ ОШИБКИ ПЕРЕДАЧ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0740 (АКПП)',
@@ -1834,7 +1833,7 @@ export const ERRORS_DATA = [
             'ВНУТРЕННЯЯ ТРАНСМИССИЯ',
             'ПЕРИОДИЧЕСКИЕ ОШИБКИ ПЕРЕДАЧ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0750 (АКПП)',
@@ -1851,7 +1850,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВОЙ ПЕРЕДАЧЕЙ',
             'ПЕРЕРЫВНАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0755 (АКПП)',
@@ -1868,7 +1867,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0760 (АКПП)',
@@ -1885,7 +1884,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0765 (АКПП)',
@@ -1902,7 +1901,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
 
     {
@@ -1921,7 +1920,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0845 (АКПП)',
@@ -1939,7 +1938,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0846 (АКПП)',
@@ -1956,7 +1955,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0850',
@@ -1968,7 +1967,7 @@ export const ERRORS_DATA = [
             'ПЕРЕДАЧА DTC(ов)',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0870 (АКПП)',
@@ -1986,7 +1985,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0871 (АКПП)',
@@ -2003,7 +2002,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0884 (АКПП)',
@@ -2013,7 +2012,7 @@ export const ERRORS_DATA = [
         error_causes: [
             'P0884 ВКЛЮЧЕНИЕ НА ВЫСОКОЙ СКОРОСТИ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0888 (АКПП)',
@@ -2032,7 +2031,7 @@ export const ERRORS_DATA = [
             'ТРАНСМИССИОННЫЙ СОЛЕНОИД/РЕЛЕ ДАВЛЕНИЯ В СБОРЕ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0890 (АКПП)',
@@ -2046,7 +2045,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0891 (АКПП)',
@@ -2060,7 +2059,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0897 (АКПП)',
@@ -2070,7 +2069,7 @@ export const ERRORS_DATA = [
         error_causes: [
             'ИЗНОШЕННАЯ/ СГОРЕВШАЯ ТРАНСМИССИОННАЯ ЖИДКОСТЬ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
 
     {
@@ -2084,7 +2083,7 @@ export const ERRORS_DATA = [
             'НАСОС ТРАНСМИССИОННОГО МАСЛА',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0952 (АКПП)',
@@ -2098,7 +2097,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P0992 (АКПП)',
@@ -2108,7 +2107,7 @@ export const ERRORS_DATA = [
         error_causes: [
             'СОСТОЯНИЕ P0992 ПРИСУТСТВУЕТ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
 
     {
@@ -2128,7 +2127,7 @@ export const ERRORS_DATA = [
             'НИЗКИЙ УРОВЕНЬ PCM',
             'ВЫСОКИЙ УРОВЕНЬ PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P1593',
@@ -2143,7 +2142,7 @@ export const ERRORS_DATA = [
             '(K4) ДАТЧИК ЗАЗЕМЛЕНИЯ РАЗОМКНУТ',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P1602',
@@ -2155,7 +2154,7 @@ export const ERRORS_DATA = [
             'ПРОВЕРЬТЕ ПРОГРАММИРОВАНИЕ PCM',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P1603',
@@ -2166,7 +2165,7 @@ export const ERRORS_DATA = [
             'ПЕРЕГОРЕЛ ВЫХОД КЛЮЧА ЗАЖИГАНИЯ (ВЫКЛЮЧЕНИЕ-ЗАПУСК)',
             'ВНУТРЕННИЙ СБОЙ PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P1604',
@@ -2195,7 +2194,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P1684 (АКПП)',
@@ -2210,7 +2209,7 @@ export const ERRORS_DATA = [
             'ЦЕПЬ ЗАЗЕМЛЕНИЯ РАЗОМКНУТА',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P1687 (АКПП)',
@@ -2223,7 +2222,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P1694 (АКПП)',
@@ -2234,7 +2233,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P1696',
@@ -2247,6 +2246,7 @@ export const ERRORS_DATA = [
             'DRB ОТОБРАЖАЕТ НЕДОПУСТИМЫЙ ПРОБЕГ SRI',
             'СРАВНИТЕ ПРОБЕГ SRI С ПОМОЩЬЮ ОДОМЕТРА'
         ],
+        error_actions: ''
         // error_actions: [
         //     '1. С помощью DRBIII выполните тест памяти SRI.<br>' +
         //     'Отображает ли DRBIII ошибку записи?<br>' +
@@ -2271,7 +2271,6 @@ export const ERRORS_DATA = [
         //     'Да → Тест завершен.<br>' +
         //     'Нет → Обновите пробег и повторно протестируйте память SRI. Выполните ПРОВЕРОЧНЫЙ ТЕСТ СИЛОВОГО АГРЕГАТА ВЕРСИИ 1.'
         // ]
-        error_actions: ['НЕДОСТУПНО']
     },
     {
         error_number: 'P1697',
@@ -2297,7 +2296,7 @@ export const ERRORS_DATA = [
             'ВНУТРЕННЯЯ ПЕРЕДАЧА',
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P1776 (АКПП)',
@@ -2315,7 +2314,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P1790 (АКПП)',
@@ -2325,7 +2324,7 @@ export const ERRORS_DATA = [
         error_causes: [
             'НЕИСПРАВНОСТЬ ПОСЛЕ СМЕНЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P1793 (АКПП)',
@@ -2335,7 +2334,7 @@ export const ERRORS_DATA = [
         error_causes: [
             'PCM - МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P1794 (АКПП)',
@@ -2347,7 +2346,7 @@ export const ERRORS_DATA = [
             'МОДУЛЬ УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ',
             'ПРЕРЫВИСТАЯ ПРОВОДКА И РАЗЪЕМЫ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P1797 (АКПП)',
@@ -2357,7 +2356,7 @@ export const ERRORS_DATA = [
         error_causes: [
             'ПЕРЕГРЕВ РУЧНОГО ПЕРЕКЛЮЧЕНИЯ ПЕРЕДАЧ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P1861',
@@ -2373,9 +2372,8 @@ export const ERRORS_DATA = [
             'ВНУТРЕННИЙ ОСМОТР ТОПЛИВНОГО БАКА И СИФОННОГО ШЛАНГА',
             'ДАТЧИК УРОВНЯ ТОПЛИВА'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
-
     {
         error_number: 'P2008',
         error_name: 'ЦЕПЬ СОЛЕНОИДА КОРОТКОГО ЗАМЫКАНИЯ',
@@ -2390,7 +2388,7 @@ export const ERRORS_DATA = [
             'ЦЕПЬ УПРАВЛЕНИЯ SRV РАЗОМКНУТА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P2066',
@@ -2443,7 +2441,7 @@ export const ERRORS_DATA = [
             'ВЫСОКОЕ СОПРОТИВЛЕНИЕ В ЦЕПИ ЗАЗЕМЛЕНИЯ ДАТЧИКА TP (K4)',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P2096',
@@ -2459,7 +2457,7 @@ export const ERRORS_DATA = [
             'ОБРАТНЫЙ КОНТУР O2',
             'ЗАГРЯЗНЕНИЕ ТОПЛИВА'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P2097',
@@ -2485,7 +2483,7 @@ export const ERRORS_DATA = [
             'СХЕМА РЕЛЕЙНОГО ВЫХОДА PCM (A142) ASD',
             'КАТУШКА ЗАЖИГАНИЯ'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'P2305',
@@ -2532,7 +2530,6 @@ export const ERRORS_DATA = [
         error_causes: '',
         error_actions: ''
     },
-
     {
         error_number: 'P2503',
         error_name: 'НИЗКОЕ НАПРЯЖЕНИЕ В СИСТЕМЕ ЗАРЯДКИ',
@@ -2549,9 +2546,8 @@ export const ERRORS_DATA = [
             '(K20) ЦЕПЬ УПРАВЛЕНИЯ ГЕНЕРАТОРНЫМ ПОЛЕМ РАЗОМКНУТА',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
-
     {
         error_number: 'U0101',
         error_name: 'СООБЩЕНИЕ ПО ШИНЕ ПЕРЕДАЧИ ОТСУТСТВУЕТ',
@@ -2563,7 +2559,7 @@ export const ERRORS_DATA = [
             'ПРЕРЫВИСТОЕ СОСТОЯНИЕ',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'U0140',
@@ -2576,7 +2572,7 @@ export const ERRORS_DATA = [
             'РАЗОМКНУТАЯ ЦЕПЬ ШИНЫ PCI',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'U0155',
@@ -2589,7 +2585,7 @@ export const ERRORS_DATA = [
             'УПРАВЛЕНИЕ КОМБИНАЦИЕЙ ПРИБОРОВ',
             'PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'U0168',
@@ -2602,7 +2598,7 @@ export const ERRORS_DATA = [
             'ПОТЕРЯ SKIM СВЯЗИ',
             'SKIM/PCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
     {
         error_number: 'U110C',
@@ -2616,6 +2612,6 @@ export const ERRORS_DATA = [
             'ЦЕПЬ ШИНЫ PCI РАЗОМКНУТА ОТ PCM К BCM',
             'BCM'
         ],
-        error_actions: ['НЕДОСТУПНО']
+        error_actions: ''
     },
 ]

@@ -1,8 +1,15 @@
-function ACCORD() {
+export function ACCORD() {
 
     const list = document.querySelectorAll('.accordion.error_article')
     list.forEach(item => {
         item.addEventListener('click', (e) => {
+
+            if (item.classList.contains('active')) {
+                item.classList.remove('active');
+                const panel = item.nextElementSibling;
+                panel.style.maxHeight = null;
+                return
+            }
 
             list.forEach(el => {
                 el.classList.remove('active');
@@ -20,3 +27,4 @@ function ACCORD() {
         })
     })
 }
+
