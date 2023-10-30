@@ -8,6 +8,11 @@ export function ACCORD() {
                 item.classList.remove('active');
                 const panel = item.nextElementSibling;
                 panel.style.maxHeight = null;
+
+                // item.scrollIntoView({
+                //     behavior: "smooth",
+                //     block: 'center'
+                // })
                 return
             }
 
@@ -15,6 +20,10 @@ export function ACCORD() {
                 el.classList.remove('active');
                 const panel = el.nextElementSibling;
                 panel.style.maxHeight = null;
+                item.scrollIntoView({
+                    behavior: "smooth",
+                    block: 'nearest'
+                })
             });
 
             item.classList.add('active');
