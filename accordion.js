@@ -16,22 +16,22 @@ export function ACCORD() {
                 return
             }
 
-            list.forEach(el => {
-                el.classList.remove('active');
-                const panel = el.nextElementSibling;
-                panel.style.maxHeight = null;
-                item.scrollIntoView({
-                    behavior: "smooth",
-                    block: 'nearest'
-                })
-            });
+            // list.forEach(el => {
+            //     el.classList.remove('active');
+            //     const panel = el.nextElementSibling;
+            //     panel.style.maxHeight = null;
+            //     // item.scrollIntoView({
+            //     //     behavior: "smooth",
+            //     //     block: 'center'
+            //     // })
+            // });
 
             item.classList.add('active');
             const panel = item.nextElementSibling;
             panel.style.maxHeight = panel.scrollHeight + "px";
             item.scrollIntoView({
                 behavior: "smooth",
-                block: 'nearest'
+                block: "start"
             })
         })
     })
