@@ -25,10 +25,6 @@ body {
     margin: 10px;
 }
 
-p {
-    color: #FFFFFF;
-    text-align: left;
-}
 
 .error_article,
 .error_note,
@@ -55,12 +51,21 @@ p {
 }
 
 .error_action {
-    border: 1px solid white;
+    background-color: #2c3e40;
+    color: #7bd26b;
+    border: 1px solid #7bd26b;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
-    text-align: left;
+    text-align: center;
 }
+
+.unavailable {
+    background-color: #363543;
+    color: #d08099;
+    border: 1px solid #d08099;
+}
+
 
 /* ACCORDION */
 
@@ -135,8 +140,25 @@ p.error_description {
 
 .close {
     text-align: center;
-    background: linear-gradient(135deg, red 10%, #1a1c1e);
+    /*background: linear-gradient(135deg, red 10%, #1a1c1e);*/
+
+    /*background-color: #2b3d3f;*/
+    /*background-color: #6C956E;*/
+    /*color: #7dc783;*/
+
+    background-color: #363543;
+    color: #d08099;
+
+    /*background-color: #2c3e40;*/
+    /*color: #7bd26b;*/
+
     font-weight: bolder;
-    border: solid 1px wheat;
+    border: solid 1px #d08099;
     border-radius: 10px;
+}
+
+p {
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 30px;
 }

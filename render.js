@@ -87,11 +87,13 @@ export function RENDER() {
             errorActions.append(errorActionsH3);
 
             const errorActionP = document.createElement('p');
-            errorActionP.className = 'error_action';
+            // errorActionP.className = 'error_action';
 
             if (error.error_actions) {
+                errorActionP.className = 'error_action';
                 errorActionP.innerHTML = 'ПОДРОБНЕЕ'; // error_action
             } else {
+                errorActionP.className = 'error_action unavailable';
                 errorActionP.innerHTML = 'НЕДОСТУПНО'; // error_action
             }
 
