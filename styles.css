@@ -7,19 +7,8 @@
 body {
     background-color: black;
     user-select: none;
-}
-
-.header {
-    position: fixed;
-    /*top: 0;*/
     /*font-size: 1.5vh;*/
-    /*font-weight: bolder;*/
-    /*width: 100%;*/
-    /*height: 65px;*/
-    /*background-color: green;*/
-    /*color: wheat;*/
-    /*z-index: 1;*/
-    /*text-align: center;*/
+    /*font-size: 30px;*/
 }
 
 .error_cards_container {
@@ -101,29 +90,53 @@ p {
     transition: max-height 0.25s ease;
 }
 
-.description {
+p.error_description {
+    /*font-size: 30px;*/
+}
+
+/*МОДАЛКА*/
+
+.modal-container {
+    pointer-events: none;
+    opacity: 0;
     position: fixed;
-    width: 100%;
-    /*height: 100%;*/
-    box-sizing: border-box;
-    background-color: #1a1c1e;
-    /*color: #FFFFFF;*/
-    padding: 20px;
-    /*margin: 10px;*/
-    /*border: solid 1px #FFFFFF;*/
-    /*border-radius: 10px;*/
-    left: -100%;
-    transition: all 0.25s ease;
-    font-size: 1.5vh;
-    color: wheat;
-}
-
-.description.show {
-    /*overflow: auto;*/
+    z-index: -1;
     left: 0;
-    /*opacity: 0.95;*/
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: opacity .25s, background-color .25s;
 }
 
-.stop_scroll {
-    overflow: hidden;
+.is-open {
+    opacity: 1;
+    pointer-events: all;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    overflow: auto;
+    /*width: Calc(100%-40px);*/
+    height: 100%;
+    /*max-width: 500px;*/
+    /*max-height: 400px;*/
+    padding: 15px;
+    background-color: #1a1c1e;
+    border-radius: 10px;
+    /*font-size: 1vh;*/
+    border: 1px solid wheat;
+}
+
+.close {
+    text-align: center;
+    background: linear-gradient(135deg, red 10%, #1a1c1e);
+    font-weight: bolder;
+    border: solid 1px wheat;
+    border-radius: 10px;
 }

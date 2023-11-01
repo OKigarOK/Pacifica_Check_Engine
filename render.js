@@ -97,7 +97,6 @@ export function RENDER() {
 
             errorActions.append(errorActionP);
 
-
             // ЦИКЛ ЭКШЕНОВ
             // const actionsElements = error.error_actions;
             //
@@ -108,6 +107,5 @@ export function RENDER() {
             //     errorActions.append(errorActionP);
             // }
         // }
-
     })
 }
