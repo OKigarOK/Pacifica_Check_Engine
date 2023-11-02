@@ -31,9 +31,22 @@ export function MODAL(){
             if (item.innerHTML === 'НЕДОСТУПНО' || item.innerHTML === 'ЗАКРЫТЬ') return
             openModal()
             const errorArticle = item.parentElement.parentElement.previousElementSibling.firstElementChild.innerHTML;
-            const errorDescription = ERRORS_DATA.find(error => error.error_number === errorArticle).error_actions;
+            const errorDescriptions = ERRORS_DATA.find(error => error.error_number === errorArticle).error_actions;
             const errorDescriptionP = document.querySelector('.error_description');
-            errorDescriptionP.innerHTML = errorDescription;
+            // СТАРОЕ
+            // errorDescriptionP.innerHTML = errorDescription;
+
+            // НОВОЕ
+            // ЦИКЛ ЭКШЕНОВ
+
+            errorDescriptionP.innerHTML = '';
+
+            for (let action of errorDescriptions) {
+                const errorActionP = document.createElement('p');
+                errorActionP.className = 'error_action';
+                errorActionP.innerHTML = action; // error_action
+                errorDescriptionP.append(errorActionP);
+            }
         });
     })
 

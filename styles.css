@@ -9,6 +9,12 @@ body {
     user-select: none;
 }
 
+p {
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 30px;
+}
+
 .error_cards_container {
     box-sizing: border-box;
     background-color: #1a1c1e;
@@ -48,19 +54,33 @@ body {
 }
 
 .error_action {
-    background-color: #2c3e40;
-    color: #7bd26b;
-    border: 1px solid #7bd26b;
+    /*background-color: #2c3e40;*/
+    /*color: #7bd26b;*/
+    /*border: 1px solid #7bd26b;*/
     border-radius: 10px;
     padding: 10px;
     margin: 10px 0 0;
     text-align: center;
 }
 
-.unavailable {
+p.error_action {
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: left;
+}
+
+p.error_action.unavailable {
     background-color: #363543;
     color: #d08099;
     border: 1px solid #d08099;
+    text-align: center;
+}
+
+p.error_action.more-detailed {
+    background-color: #2c3e40;
+    color: #7bd26b;
+    border: 1px solid #7bd26b;
+    text-align: center;
 }
 
 /* ACCORDION */
@@ -89,10 +109,6 @@ body {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.25s ease;
-}
-
-p.error_description {
-    /*font-size: 30px;*/
 }
 
 /*МОДАЛКА*/
@@ -132,7 +148,7 @@ p.error_description {
     border: 1px solid wheat;
 }
 
-.close {
+p.error_action.close {
     text-align: center;
     background-color: #363543;
     color: #d08099;
@@ -141,8 +157,3 @@ p.error_description {
     border-radius: 10px;
 }
 
-p {
-    color: #FFFFFF;
-    text-align: left;
-    font-size: 30px;
-}

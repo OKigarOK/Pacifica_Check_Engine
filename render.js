@@ -90,7 +90,7 @@ export function RENDER() {
             // errorActionP.className = 'error_action';
 
             if (error.error_actions) {
-                errorActionP.className = 'error_action';
+                errorActionP.className = 'error_action more-detailed';
                 errorActionP.innerHTML = 'ПОДРОБНЕЕ'; // error_action
             } else {
                 errorActionP.className = 'error_action unavailable';
