@@ -23,18 +23,6 @@ export function RENDER() {
         panel.className = 'panel';
         errorCard.append(panel);
 
-        if (error.error_note) {
-            const errorNote = document.createElement('div');
-            errorNote.className = 'error_note';
-            panel.append(errorNote);
-            const errorNoteH3 = document.createElement('h3');
-            errorNoteH3.innerText = 'ПРИМЕЧАНИЕ К ТЕСТУ:';
-            errorNote.append(errorNoteH3);
-            const errorNoteP = document.createElement('p');
-            errorNoteP.innerText = error.error_note; // error_monitored
-            errorNote.append(errorNoteP);
-        }
-
         if (error.error_monitored) {
             const errorMonitored = document.createElement('div');
             errorMonitored.className = 'error_monitored';
@@ -77,37 +65,36 @@ export function RENDER() {
             }
         }
 
-        // if (error.error_actions) {
+        if (error.error_note) {
+            const errorNote = document.createElement('div');
+            errorNote.className = 'error_note';
+            panel.append(errorNote);
+            const errorNoteH3 = document.createElement('h3');
+            errorNoteH3.innerText = 'ПРИМЕЧАНИЕ К ТЕСТУ:';
+            errorNote.append(errorNoteH3);
+            const errorNoteP = document.createElement('p');
+            errorNoteP.innerText = error.error_note; // error_monitored
+            errorNote.append(errorNoteP);
+            return
+        }
 
-            const errorActions = document.createElement('div');
-            errorActions.className = 'error_actions';
-            panel.append(errorActions);
-            const errorActionsH3 = document.createElement('h3');
-            errorActionsH3.innerText = 'НАШИ ДЕЙСТВИЯ:';
-            errorActions.append(errorActionsH3);
+        const errorActions = document.createElement('div');
+        errorActions.className = 'error_actions';
+        panel.append(errorActions);
+        const errorActionsH3 = document.createElement('h3');
+        errorActionsH3.innerText = 'НАШИ ДЕЙСТВИЯ:';
+        errorActions.append(errorActionsH3);
+        const errorActionP = document.createElement('p');
 
-            const errorActionP = document.createElement('p');
-            // errorActionP.className = 'error_action';
+        if (error.error_actions) {
+            errorActionP.className = 'error_action more-detailed';
+            errorActionP.innerHTML = 'ПОДРОБНЕЕ'; // error_action
+        } else {
+            errorActionP.className = 'error_action unavailable';
+            errorActionP.innerHTML = 'НЕДОСТУПНО'; // error_action
+        }
 
-            if (error.error_actions) {
-                errorActionP.className = 'error_action more-detailed';
-                errorActionP.innerHTML = 'ПОДРОБНЕЕ'; // error_action
-            } else {
-                errorActionP.className = 'error_action unavailable';
-                errorActionP.innerHTML = 'НЕДОСТУПНО'; // error_action
-            }
+        errorActions.append(errorActionP);
 
-            errorActions.append(errorActionP);
-
-            // ЦИКЛ ЭКШЕНОВ
-            // const actionsElements = error.error_actions;
-            //
-            // for (let action of actionsElements) {
-            //     const errorActionP = document.createElement('p');
-            //     errorActionP.className = 'error_action';
-            //     errorActionP.innerHTML = action; // error_action
-            //     errorActions.append(errorActionP);
-            // }
-        // }
     })
 }
