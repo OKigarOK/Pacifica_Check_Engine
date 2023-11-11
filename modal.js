@@ -27,7 +27,7 @@ export function MODAL(){
     }
 
     modalActions.forEach(item => {
-        item.addEventListener('click', (e) => {
+        item.addEventListener('click', () => {
             if (item.innerHTML === 'НЕДОСТУПНО' || item.innerHTML === 'ЗАКРЫТЬ') return
             openModal()
             const errorArticle = item.parentElement.parentElement.previousElementSibling.firstElementChild.innerHTML;
@@ -47,6 +47,9 @@ export function MODAL(){
                 errorActionP.innerHTML = action; // error_action
                 errorDescriptionP.append(errorActionP);
             }
+
+            errorDescriptionP.scrollIntoView({ block: "start", behavior: "smooth" });
+
         });
     })
 
