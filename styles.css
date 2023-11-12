@@ -16,6 +16,9 @@ p {
 }
 
 .error_cards_container {
+    /*max-width: 1024px;*/
+    /*margin: 0 auto;*/
+
     box-sizing: border-box;
     background-color: #1a1c1e;
     border: 1px solid black;
@@ -53,13 +56,24 @@ p {
     font-weight: bolder;
 }
 
+.error_description {
+
+}
+
+/*.error_action {*/
+/*    !*background-color: #2c3e40;*!*/
+/*    !*color: #7bd26b;*!*/
+/*    !*border: 1px solid #7bd26b;*!*/
+/*    border-radius: 10px;*/
+/*    padding: 10px;*/
+/*    margin: 10px 0 0;*/
+/*    text-align: center;*/
+/*}*/
+
 .error_action {
-    /*background-color: #2c3e40;*/
-    /*color: #7bd26b;*/
-    /*border: 1px solid #7bd26b;*/
     border-radius: 10px;
     padding: 10px;
-    margin: 10px 0 0;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -74,12 +88,24 @@ p.error_action.unavailable {
     color: #d08099;
     border: 1px solid #d08099;
     text-align: center;
+    margin: 10px 0 0;
 }
 
 p.error_action.more-detailed {
     background-color: #2c3e40;
     color: #7bd26b;
     border: 1px solid #7bd26b;
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+h1.error_transition {
+    padding: 10px;
+    margin: 10px 0 0;
+    border-radius: 10px;
+    background-color: #36393e;
+    color: #eba953;
+    border: 1px solid #eba953;
     text-align: center;
 }
 
@@ -125,7 +151,7 @@ p.error_action.more-detailed {
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    padding: 40px;
+    padding: 40px 60px;
     background-color: rgba(0, 0, 0, 0);
     transition: opacity .25s, background-color .25s;
 }
@@ -137,15 +163,24 @@ p.error_action.more-detailed {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/*.modal-content {*/
+/*    overflow: auto;*/
+/*    max-height: 100%;*/
+/*    !*max-width: 500px;*!*/
+/*    !*max-height: 400px;*!*/
+/*    padding: 10px 20px 20px 20px;*/
+/*    background-color: #1a1c1e;*/
+/*    border-radius: 10px;*/
+/*    border: 1px solid wheat;*/
+/*}*/
+
 .modal-content {
     overflow: auto;
     max-height: 100%;
-    /*max-width: 500px;*/
-    /*max-height: 400px;*/
-    padding: 20px;
+    /*padding: 10px 20px 20px 20px;*/
     background-color: #1a1c1e;
     border-radius: 10px;
-    border: 1px solid wheat;
+    /*border: 1px solid wheat;*/
 }
 
 p.error_action.close {
@@ -155,5 +190,6 @@ p.error_action.close {
     font-weight: bolder;
     border: solid 1px #d08099;
     border-radius: 10px;
+    margin: 0;
 }
 
