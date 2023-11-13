@@ -1,3 +1,5 @@
+import {voiceText} from "./speech.js";
+
 export function ACCORD() {
 
     const list = document.querySelectorAll('.accordion.error_article')
@@ -33,7 +35,11 @@ export function ACCORD() {
                 behavior: "smooth",
                 block: "start"
             })
-        })
+
+            // ГОЛОС
+            const errorNumber = item.firstElementChild.innerText;
+            const errorName = item.lastElementChild.innerText
+            voiceText('Ошибка ' + errorNumber + errorName);
+         })
     })
 }
-
