@@ -16,9 +16,6 @@ p {
 }
 
 .error_cards_container {
-    /*max-width: 1024px;*/
-    /*margin: 0 auto;*/
-
     box-sizing: border-box;
     background-color: #1a1c1e;
     border: 1px solid black;
@@ -55,20 +52,6 @@ p {
     background: linear-gradient(135deg, #1a1c1e 10%, red);
     font-weight: bolder;
 }
-
-.error_description {
-
-}
-
-/*.error_action {*/
-/*    !*background-color: #2c3e40;*!*/
-/*    !*color: #7bd26b;*!*/
-/*    !*border: 1px solid #7bd26b;*!*/
-/*    border-radius: 10px;*/
-/*    padding: 10px;*/
-/*    margin: 10px 0 0;*/
-/*    text-align: center;*/
-/*}*/
 
 .error_action {
     border-radius: 10px;
@@ -163,24 +146,11 @@ h1.error_transition {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-/*.modal-content {*/
-/*    overflow: auto;*/
-/*    max-height: 100%;*/
-/*    !*max-width: 500px;*!*/
-/*    !*max-height: 400px;*!*/
-/*    padding: 10px 20px 20px 20px;*/
-/*    background-color: #1a1c1e;*/
-/*    border-radius: 10px;*/
-/*    border: 1px solid wheat;*/
-/*}*/
-
 .modal-content {
     overflow: auto;
     max-height: 100%;
-    /*padding: 10px 20px 20px 20px;*/
     background-color: #1a1c1e;
     border-radius: 10px;
-    /*border: 1px solid wheat;*/
 }
 
 p.error_action.close {
@@ -192,4 +162,3 @@ p.error_action.close {
     border-radius: 10px;
     margin: 0;
 }
-
